@@ -29,6 +29,8 @@ export default class Header extends Component {
                 <NavLink style={styles.linkStyle} activeStyle={styles.activeStyle} exact to="/">Home</NavLink>
                 <NavLink style={styles.linkStyle} activeStyle={styles.activeStyle} to="/about">About</NavLink>
                 <NavLink style={styles.linkStyle} activeStyle={styles.activeStyle} to="/portfolio">Portfolio</NavLink>
+                <NavLink style={styles.linkStyle} activeStyle={styles.activeStyle} to="/contact">Contact</NavLink>
+                <NavLink style={styles.linkStyle} activeStyle={styles.activeStyle} to="/references">References</NavLink>
             </nav>
         )
     }
